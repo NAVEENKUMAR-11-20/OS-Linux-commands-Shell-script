@@ -101,9 +101,7 @@ Hello world
 hello world
 ^d
 ````
-cat > newfile 
-Hello world
-hello world
+cat > newfile Hello world hello world
  
 grep Hello newfile 
 ## OUTPUT
@@ -364,8 +362,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 
 
 
-#Backup commands
-tar -cvf backup.tar *
+#Backup commands tar -cvf backup.tar *
 ## OUTPUT
 
 
@@ -396,8 +393,7 @@ gunzip backup.tar.gz
 echo '#!/bin/sh' > my-script.sh
 echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
-chmod 755 my-script.sh
-./my-script.sh
+chmod 755 my-script.sh ./my-script.sh
 ## OUTPUT
 
  
@@ -456,8 +452,7 @@ ls file1
 
 echo $?
 ## OUTPUT 
-./one
-bash: ./one: Permission denied
+./one bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
@@ -836,15 +831,7 @@ do
 echo "Visit beautiful $file“
 done
 ```
-$ chmod 777 forinfile.sh
-$ cat cities
-Hyderabad
-Alampur
-Basara
-Warangal
-Adilabad
-Bhadrachalam
-Khammam
+$ chmod 777 forinfile.sh $ cat cities Hyderabad Alampur Basara Warangal Adilabad Bhadrachalam Khammam
 
 ## OUTPUT
 
@@ -858,8 +845,7 @@ do
 echo "The value of i is $i"
 done
 ````
-$ chmod 755 forctype.sh
-$ ./forctype.sh 
+$ chmod 755 forctype.sh $ ./forctype.sh 
 ## OUTPUT
 
 cat forctype1.sh 
@@ -871,8 +857,7 @@ do
 echo "$a - $b"
 done
 ```
-$ chmod 755 forctype.sh
-$ ./forctype1.sh 
+$ chmod 755 forctype.sh $ ./forctype1.sh 
 ## OUTPUT
 
 cat fornested1.sh 
