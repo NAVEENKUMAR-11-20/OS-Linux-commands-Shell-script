@@ -140,7 +140,7 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-
+![](img/sem%20i1.png)
 
 
 grep -w -n world newfile   
